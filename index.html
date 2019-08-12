@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class = "member">
+        
+        <form class = "member__form">
+            <h1 class = "member__heading">Membership form</h1>
+            <label for="name" class = "member__label">Name</label>
+            <div class="member__form--field">
+              <input type = "text" id = "name" class = "member__text member__text--name"/>
+            </div>
+
+            <label for="email" class = "member__label">Email</label>
+            <div class="member__form--field">
+              <input type = "text" id = "email" class = "member__text member__text--email"/>
+            </div>
+            
+            <label for="phone" class = "member__label">Phone number</label>
+            <div class="member__form--field">
+              <input type = "text" id = "phone" class = "member__text member__text--phone"/>
+            </div>
+
+           
+            <h3 class = "member__header3">Choose your hobbies</h3>
+            <div class = "member__hobbies member__form--field">
+              <label for="sport" class="member__label"><input type="checkbox" name="hobby" id = "sport" value="Sport">Sport</label><br>
+              <label for="art" class="member__label"><input type="checkbox" name="hobby" id="art" value="Art">Art</label><br>
+              <label for = "music" class="member__label"><input type="checkbox" name="hobby" id="music" value="Music">Music</label><br>
+            </div> 
+
+            <h3 class = "member__header3">City</h3>
+            <div class = "member__cities member__form--field">
+              <label for="wellington" class="member__label"><input type = "radio" name = "city" id = "wellington">Wellington</label>
+              <label for="auckland" class="member__label"><input type = "radio" name = "city" id = "auckland">Auckland</label>
+            </div>
+            
+            <label for="activity" class = "member__label">Activity</label>
+            <div class="member__form--field">
+              <select class = "member__text" id="activity">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+          </form>
+      </div>
+  </body>
+</html>
